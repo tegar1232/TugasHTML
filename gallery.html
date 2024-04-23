@@ -29,24 +29,23 @@
     <div class="package-portofolio">
         <div class="portofolio">
             <h3>Gallery</h3>
-            
-            <div class="img-portofolio-set">
-                <img src="assets/images/Gambar1.jpeg" alt="">
-               
+            <div id="galleryContainer">
                 
             </div>
-            <div class="img-portofolio-set">
-                <img src="assets/images/Gambar2.jpeg" alt="">
-               
             
-            </div>
-            <div class="img-portofolio-set">
-                <img src="assets/images/Gambar3.jpeg" alt="">
-               
             
-            </div>
+            
 
             
+        </div>
+        <div style="text-align:center;">
+            <a href="#gallery" class="my-button" style="background-color: rgb(23, 37, 59);" onclick="loadGallery()"
+                id="loadGalleryButton">Tekan
+                untuk Melihat Gambar</a>
+            <a href="#gallery" class="my-button" style="background-color: rgb(21, 40, 65);display:none" onclick="previousGallery()"
+                id="previousGalleryButton">Sebelumnya</a>
+            <a href="#gallery" class="my-button" style="background-color: rgb(13, 25, 39);display:none" onclick="nextGallery()"
+                id="nextGalleryButton">Next</a>
         </div>
     </div>
     <footer>
@@ -58,5 +57,6 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
